@@ -1,0 +1,317 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1">
+  <diagram name="第 1 页" id="VkTKd6EgbicwQY6L3ae4">
+    <mxGraphModel dx="1445" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="567" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-9" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qiAGvYg6bF-YE5hJzJqp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="构建资金结算信息&lt;div&gt;buildFundSettleInfo()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="507" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-5" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="校验业务：&lt;div&gt;1.请求参数校验&lt;/div&gt;&lt;div&gt;2.校验签约方式（授权收款）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="166" x="734" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-7" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qiAGvYg6bF-YE5hJzJqp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="结算类型&lt;div&gt;结算银行卡信息&lt;/div&gt;&lt;div&gt;授权信息&lt;/div&gt;&lt;div&gt;结算协议&lt;/div&gt;&lt;div&gt;辅助证明材料&lt;/div&gt;&lt;div&gt;备注&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="166" x="734" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-22" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qiAGvYg6bF-YE5hJzJqp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="签约&lt;br&gt;&lt;div&gt;settleSign()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="507" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-12" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="切面处理：&lt;div&gt;&lt;b&gt;新增变更申请记录&lt;/b&gt;&lt;/div&gt;&lt;div&gt;saveApplyResult()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="166" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-14" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;一些校验，&lt;b&gt;电子协议+授权收款才走下面逻辑&lt;/b&gt;&lt;/div&gt;更新短信黑名单modifySmsBlack()&lt;div&gt;授权结算卡签约settleAgreementSign()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="246" x="734" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-16" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qiAGvYg6bF-YE5hJzJqp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;授权结算卡签约&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;settleAgreementSign()&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="1010" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-23" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="qiAGvYg6bF-YE5hJzJqp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="查进件申请单号queryApplyIdByMerchNo(商户号)&lt;div&gt;查商户进件信息queryIncomingInfo(申请单号)&lt;/div&gt;&lt;div&gt;补充商户信息：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;结算信息&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;证件信息&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;主体信息&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;经营信息&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;根据结算协议中的签约模式选择&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;线上电子协议签约&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;signDelegateeAgreement()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;嘉联电子协议签约&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;jlpaySignDelegateeAgreement()&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;两个流程基本一致：&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;生成编号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;构建A签约信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;构建B签约信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;补充B合同列表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;签约A&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;签约B&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;两个流程基本一致&lt;/b&gt;：&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;调用签约服务生成签约短链&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;重置签约短链的实名认证&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;发送签约短信&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;记录签约结果&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;根据A、B的签约短链是否生成成功构建审核结果记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;更新变更申请记录&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;updateApplyResultRecord()&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果签约短链生成失败&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查进件申请单记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;发送推送消息通知机构（appId）&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;b&gt;发送签约消息到消息队列(topic:open_merch_sign_query)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="565" width="410" x="1190" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-26" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qiAGvYg6bF-YE5hJzJqp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="变更结算卡&lt;br&gt;&lt;div&gt;changeSettleCard()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="507" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-24" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="qiAGvYg6bF-YE5hJzJqp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="授权且电子协议签约，直接返回变更结果：待电子签约&lt;div&gt;纸质协议&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;初始化申请记录-保存&lt;b&gt;申请单工作流记录&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;开通商户结算卡变更权限（先查，未开通去开通）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;变更权限未开通，创重试任务&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;（&lt;b&gt;发送延时消息到消息队列（topic=&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;open_merch_report_retry_delay&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;发送变更请求&lt;b&gt;（携带回调地址）&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;更新&lt;b&gt;申请单工作流记录&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="420" x="40" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-112" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-111" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="处理变更结果&lt;br&gt;&lt;div&gt;handleChangeResult()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="507" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-28" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="如果审核状态属于：提交/编辑、待审核、审核中&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;发送消息到消息队列(topic=&lt;span style=&quot;background-color: rgb(245, 245, 245); color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px;&quot;&gt;open_merch_audit_query&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;如何审核状态属于：驳回、取消&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;更新变更申请单&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;先查变更申请单&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;一系列判断逻辑&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;更新一系列申请单工作流记录&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;更新变更申请记录&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="416" x="734" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-31" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="切面处理：&lt;div&gt;&lt;b&gt;更新变更申请记录&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="166" x="232" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="结束" vertex="1">
+          <mxGeometry height="30" width="60" x="537" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-35" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="消息队列：签约状态轮询" vertex="1">
+          <mxGeometry height="60" width="166" x="280" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-37" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="查变更申请记录" vertex="1">
+          <mxGeometry height="60" width="166" x="280" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-41" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-43" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="查签约结果" vertex="1">
+          <mxGeometry height="60" width="166" x="280" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-40" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查A的签约结果&lt;div&gt;查B的签约结果&lt;/div&gt;&lt;div&gt;&lt;b&gt;更新变更申请记录&lt;/b&gt;的签约结果&lt;/div&gt;&lt;div&gt;综合A、B的签约结果&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="251" x="549" y="1501" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-46" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-51" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="失败" vertex="1">
+          <mxGeometry relative="1" x="0.0444" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-48" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-53" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="签约中" vertex="1">
+          <mxGeometry relative="1" x="-0.1833" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-59" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-42" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=1;" value="&amp;nbsp; &amp;nbsp; 签约结果" vertex="1">
+          <mxGeometry height="80" width="80" x="323" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-45" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="更新变更申请记录的审核状态&lt;div&gt;如果是进件，还会通过推送系统推送消息给机构&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="263" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-47" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="发送签约消息到消息队列，等待再次轮询" vertex="1">
+          <mxGeometry height="60" width="247" x="463" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-55" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-49" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="构建资金计算信息" vertex="1">
+          <mxGeometry height="40" width="120" x="303" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-57" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-62" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-54" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="变更结算卡" vertex="1">
+          <mxGeometry height="40" width="120" x="303" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-92" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-91" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-56" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="处理变更结果" vertex="1">
+          <mxGeometry height="40" width="120" x="303" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-60" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-58" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查合同信息来完成后续流程" vertex="1">
+          <mxGeometry height="60" width="120" x="303" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="和&lt;b&gt;变更结算卡&lt;/b&gt;共用一套处理逻辑" vertex="1">
+          <mxGeometry height="30" width="262" x="18" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-63" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="qiAGvYg6bF-YE5hJzJqp-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-66" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="消息队列：变更审核轮询" vertex="1">
+          <mxGeometry height="60" width="166" x="1160.5" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-68" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;更新变更申请记录&lt;/b&gt;，判断是否变更申请记录的所有流程是否已结束" vertex="1">
+          <mxGeometry height="60" width="166" x="1160.5" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-72" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-75" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="有未结束的" vertex="1">
+          <mxGeometry relative="1" x="-0.1168" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-94" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-95" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="都结束" vertex="1">
+          <mxGeometry relative="1" x="-0.325" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-67" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=1;" value="所有申请单工作流" vertex="1">
+          <mxGeometry height="80" width="80" x="1203.5" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-96" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-71" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="发送变更审核消息到消息队列，等待再次轮询" vertex="1">
+          <mxGeometry height="60" width="247" x="1120" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-78" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-76" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="申请单查询接口：&lt;div&gt;/open/merch/access/incoming/query&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="90" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-80" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-77" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查询(变更/进件)申请记录" vertex="1">
+          <mxGeometry height="40" width="240" x="90" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-82" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-85" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2667" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-84" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-83" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-86" connectable="0" parent="qiAGvYg6bF-YE5hJzJqp-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0568" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-79" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=1;" value="是否进件申请单" vertex="1">
+          <mxGeometry height="80" width="100" x="160" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-104" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="qiAGvYg6bF-YE5hJzJqp-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-81" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查进件结果" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-88" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="qiAGvYg6bF-YE5hJzJqp-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-90" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-89" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-83" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查询变更结果" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-87" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="&lt;b&gt;更新变更申请记录updateAuditResult()&lt;/b&gt;&lt;div&gt;查询变更申请记录&lt;/div&gt;&lt;div&gt;查询功能开通信息（进件、开通功能时才查）&lt;/div&gt;&lt;div&gt;填充信息返回&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="500" y="2790" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-89" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;align=left;rounded=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="200" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-91" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;align=left;rounded=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="353" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-93" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;align=left;rounded=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1393.5" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-100" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="补充签约结果&lt;div&gt;补充报备结果&lt;br&gt;&lt;div&gt;查询功能开通信息（进件、开通功能时才查）&lt;/div&gt;&lt;div&gt;填充信息返回&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="500" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-103" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.78;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=4" target="qiAGvYg6bF-YE5hJzJqp-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="2970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-107" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-105" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="变更审核回调接口：&lt;div&gt;/open/merch/access/change/notify/audit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="1300" y="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-114" edge="1" parent="1" source="qiAGvYg6bF-YE5hJzJqp-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qiAGvYg6bF-YE5hJzJqp-113" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-106" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="查询申请单工作流记录&lt;div&gt;更新&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;申请单工作流记录&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="1350" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-111" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="557" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-113" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;align=left;rounded=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1410" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="qiAGvYg6bF-YE5hJzJqp-208" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;pre style=&quot;text-align: center;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;变更结算卡：/open/merch/access/settle-info/modify&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#bcbec4&quot;&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="398" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
