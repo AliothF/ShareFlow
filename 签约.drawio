@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
   <diagram name="第 1 页" id="krR139RIlyinZXwKW_eL">
-    <mxGraphModel dx="4471" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2200" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,8 +259,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phn20tQYRZfY0fDlgo-f-98" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;发起签约&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;/apply/sign/contract&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(批量签/单条签)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;——&amp;gt;esign-channel：&lt;b&gt;/fdd/sign/contract&lt;/b&gt;、fdd/sign/batch/contract&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;——&amp;gt;fdd渠道：extsign.api、queryBatchSignUrl.api&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="390" x="2590" y="670" as="geometry" />
+        <mxCell id="phn20tQYRZfY0fDlgo-f-98" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;发起签约&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;/apply/sign/contract&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;填充合同模板&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;esign-channel：&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;/fdd/generate/contract&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;fdd渠道：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;generate_contract.api&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;自动签(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;sign01&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;esign-channel：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;/fdd/auto/extsign&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;fdd渠道：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;extsign_auto.api&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(批量签/单条签)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;——&amp;gt;esign-channel：&lt;b&gt;/fdd/sign/contract&lt;/b&gt;、fdd/sign/batch/contract&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;——&amp;gt;fdd渠道：extsign.api、queryBatchSignUrl.api&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="390" x="2590" y="670" as="geometry" />
         </mxCell>
         <mxCell id="phn20tQYRZfY0fDlgo-f-108" edge="1" parent="1" source="phn20tQYRZfY0fDlgo-f-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="phn20tQYRZfY0fDlgo-f-107" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -345,9 +345,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="phn20tQYRZfY0fDlgo-f-135" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="签约" vertex="1">
-          <mxGeometry height="60" width="120" x="2725" y="870" as="geometry" />
+          <mxGeometry height="60" width="120" x="2725" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="TVkejU4lPCFxIeQE6Q4r-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="跳转对应结果页" vertex="1">
+        <mxCell id="TVkejU4lPCFxIeQE6Q4r-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="点击立即签署合同，提示不同信息" vertex="1">
           <mxGeometry height="60" width="120" x="3220" y="530" as="geometry" />
         </mxCell>
         <mxCell id="TVkejU4lPCFxIeQE6Q4r-3" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6、7、8" vertex="1">
