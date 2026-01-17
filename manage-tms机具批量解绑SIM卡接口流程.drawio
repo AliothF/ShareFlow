@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
+  <diagram name="第 1 页" id="BNZxML-RVu4UprGkIsMt">
+    <mxGraphModel dx="1066" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-3" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JlI7svFqFBQLQmDUuMXJ-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-4" connectable="0" parent="JlI7svFqFBQLQmDUuMXJ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用" vertex="1">
+          <mxGeometry relative="1" x="-0.23" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-7" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="manage-tms" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-10" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JlI7svFqFBQLQmDUuMXJ-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="merch-register-api" vertex="1">
+          <mxGeometry height="60" width="140" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="manage-tms 机具&lt;b&gt;解绑&lt;/b&gt;SIM卡" vertex="1">
+          <mxGeometry height="30" width="270" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-16" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JlI7svFqFBQLQmDUuMXJ-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="merch-async" vertex="1">
+          <mxGeometry height="60" width="140" x="60" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="5.同步商户终端信息 ：参数：变更值-sn、变更类型-4&lt;br&gt;http://merch-async-svc.manage:8080/outer/merchChangeSync" vertex="1">
+          <mxGeometry height="40" width="380" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-12" parent="1" style="text;whiteSpace=wrap;html=1;" value="6.查终端信息&lt;br&gt;查终端信息 ：参数：机身号sn&lt;br&gt;&lt;b&gt;tmsDevice 取SIM卡号&lt;/b&gt;：http://manage-tms-svc.manage:8080/tms/tms-device/list&amp;nbsp;&lt;br&gt;device：http://manage-tms-svc.manage:8080/tms/device/list&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="480" x="240" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-13" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.03;entryY=0.829;entryDx=0;entryDy=0;entryPerimeter=0;" target="JlI7svFqFBQLQmDUuMXJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="590" />
+              <mxPoint x="220" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-14" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;7.向交易同步终端信息&lt;/div&gt;&lt;div&gt;http://trans-merch-write-svc.trans:8080/syncTermInfo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="480" x="240" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="trans-merch-write" vertex="1">
+          <mxGeometry height="60" width="140" x="60" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-18" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;7.同步终端参数&lt;/div&gt;&lt;div&gt;更新终端信息表&amp;nbsp;&lt;b&gt;t_param_term&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="480" x="240" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="post-tms电签激活： /tms/TER002" vertex="1">
+          <mxGeometry height="30" width="190" x="50" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-22" edge="1" parent="1" source="JlI7svFqFBQLQmDUuMXJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JlI7svFqFBQLQmDUuMXJ-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="pos-tms" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="trans-merch-query" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="1.查询设备信息，参数机身号sn&lt;br&gt;http://trans-merch-query-svc.trans:8080/queryLeftTermInfo&lt;div&gt;2.如果设备上送的SIM卡号和查询设备的SIM卡号均不为空，则校验是否一致，不一致报错：请插回原流量卡&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="580" x="240" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="查询设备信息，参数机身号sn&lt;br&gt;先从redis读取结果，没有则查询数据库表 &lt;b&gt;t_param_term&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="480" x="240" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="JlI7svFqFBQLQmDUuMXJ-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="1.保存sim解绑记录：T_TMS_SIMCARD_HIS&lt;div&gt;2.更新机具信息：T_TMS_DEVICE&lt;/div&gt;&lt;div&gt;3.保存机具修改历史：T_TMS_DEVICE_HISTORY&lt;/div&gt;&lt;div&gt;4.清除机具信息缓存：参数：机身号sn&lt;br&gt;http://merch-register-api-srv-svc.manage:8080/termChangeSyncRedisRpc&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="440" x="240" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
